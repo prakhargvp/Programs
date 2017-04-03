@@ -7,7 +7,7 @@ while [ "$i" -lt "$N" ]
 do
 	read A[$i]
 	# maintain space between operator
-	# expr is treate $i as number
+	# expr is used for expression 
 	i=`expr $i + 1`
 done
 # Insertion Sort Algorithm
@@ -29,6 +29,6 @@ done
 i=0
 while [ "$i" -lt "$N" ]
 do
-	echo -n ${A[$i]}" "
+	echo -n "${A[$i]} "
 	i=`expr $i + 1`
 done
