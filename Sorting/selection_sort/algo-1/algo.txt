@@ -1,0 +1,8 @@
+step-1 : START
+step-2 : for i = 1 to N-1
+step-3 : 	key = i
+step-4 :	for j = i+1 to N	
+step-5 :		if A[j] < A[key]	
+step-6 : 			key = j	
+step-7 :	swap(A[i],A[key])	
+step-8 : STOP
