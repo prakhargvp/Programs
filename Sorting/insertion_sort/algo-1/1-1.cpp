@@ -1,22 +1,24 @@
-// Implementing Insertion Sort in C using Static Memory Allocation
+// Implemeting insertion sort in c++ using vectors
 // Header Files
 // Preprocessor Directive
-#include<stdio.h>
-// Symbolic Constant
-#define MAX 100
-// Main Calling Function
+#include<iostream>
+#include<vector>
+using namespace std;
 int main(){
 	// Varaible Declaration
-	int A[MAX],N,i,j,key;
+	vector<int> A;
+	int N,i,j,key,num;
 	// Input the Size of Array
-	scanf("%d",&N);
+	cin >> N;
 	// Input the Array elements
 	for(i=0;i<N;i++){
-		scanf("%d",&A[i]);
+		cin >> num;
+		A.push_back(num);
 	}	
 	// Insertion Sort Algorithm
 	// Sorted   : A[0...i-1] 
 	// UnSorted : A[i...N-1]
+	// N = A.size() 
 	for(i=1;i<N;i++){
 		key = A[i];	
 		j = i-1;
@@ -28,7 +30,7 @@ int main(){
 	}
 	// Output
 	for(i=0;i<N;i++){
-		printf("%d ",A[i]);
+		cout << A[i] << " ";
 	}
 return 0;
 }

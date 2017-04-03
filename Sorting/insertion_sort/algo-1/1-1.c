@@ -1,15 +1,16 @@
-// Implementing Insertion Sort in C using Static Memory Allocation
+// Implementing Insertion Sort in C using Dynamic Memory Allocation
 // Header Files
 // Preprocessor Directive
 #include<stdio.h>
-// Symbolic Constant
-#define MAX 100
+#include<malloc.h>
 // Main Calling Function
 int main(){
 	// Varaible Declaration
-	int A[MAX],N,i,j,key;
+	int *A,N,i,j,key;
 	// Input the Size of Array
 	scanf("%d",&N);
+	// Dynamic Memory Allocation using malloc()
+	A = (int*)malloc(N*sizeof(int));
 	// Input the Array elements
 	for(i=0;i<N;i++){
 		scanf("%d",&A[i]);
