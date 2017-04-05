@@ -9,6 +9,7 @@
 1.sh	: Implementing Selection SOrt in Shell-Script using while-loop and expr
 1.py	: Implementing Selection Sort in Pyhton using Basic Synatx (range())
 1-1.py	: Implementing Selection Sort in Pyhton using Basic Synatx (range(),numpy.arange())
+1.js	: Implementing Selection Sort in JS without using function
 
 [Functions]
 [SyntaxSelection]

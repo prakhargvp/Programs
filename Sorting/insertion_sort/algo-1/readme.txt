@@ -8,6 +8,7 @@
 1.php   : Implementing Insertion sort in php
 1.sh	: Implementing Insertion SOrt in Shell-Script using while-loop and expr
 1.py	: Implementing Insertion Sort in Pyhton using Basic Synatx
+1.js	: Implementing Insertion Sort in JS without using function 
 
 [Functions]
 [Syntax]
