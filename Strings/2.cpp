@@ -19,6 +19,6 @@ int main(){
 		
 	}
 	// Total numbers of Vowel
-	cout << count << endl;	// 7
+	cout << count << endl;	// 2
 return 0;
 }
